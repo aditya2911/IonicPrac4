@@ -1,0 +1,7 @@
+{
+  "name": "mcaDept_prac3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

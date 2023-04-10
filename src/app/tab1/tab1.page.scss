@@ -1,0 +1,35 @@
+.headerButtonColors{
+    background-color: transparent;
+}
+*{
+}
+
+.parent{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.7rem;
+    // padding-bottom: 3.5rem;
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+
+
+}
+
+.introText{
+    margin-top: 0;
+    margin-bottom: 0rem;
+    color: black;
+    font-size:1.3rem;
+    padding: 0;
+
+}
+
+.courseText{    
+    margin-bottom: 1rem;
+    margin-top: 0;
+
+    font-size: 1.1rem;
+    color: #9192a2;
+}
