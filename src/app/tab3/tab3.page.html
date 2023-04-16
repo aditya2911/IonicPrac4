@@ -1,17 +1,70 @@
 <ion-header [translucent]="true">
+
   <ion-toolbar>
-    <ion-title>
-      Tab 3
+    <ion-title class="subtitle">
+      Events and Announcements
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="parent">
+    <div direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+      <div class="mar">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>
+                Academic Calendar of Sardar Patel Institute of Technology.
+                <ion-badge slot="start" color="success"><a
+                    href="https://mca.spit.ac.in/index.php/academic-calendar/">Download</a></ion-badge>
+                <ion-badge slot="start" color="danger">New</ion-badge>
+              </td>
+            </tr>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+            <tr>
+              <td>
+                Research Paper Seminar for TYMCA students on 28th Nov. 2019 By Dr. Y.S.Rao, Dr. Anant Nimkar, Dr.
+                Bhavtankar, Dr. Pooja Raundale, and Dr. Aarti Karande
+                <ion-badge slot="start" color="warning"><a
+                    href="https://www.spit.ac.in/faculty-research/">View</a></ion-badge>
+                <ion-badge slot="start" color="danger">New</ion-badge>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                View Green Initiattive on 27th September 2022 by ACE commitee of MCA
+                <ion-badge slot="start" color="warning"><a
+                    href="http://mca.spit.ac.in/Docs/green_Initiative.pdf">View</a></ion-badge>
+                <ion-badge slot="start" color="danger">New</ion-badge>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Faculty Research
+                <ion-badge slot="start" color="warning"><a
+                    href="https://www.spit.ac.in/faculty-research/">View</a></ion-badge>
+                <ion-badge slot="start" color="danger">New</ion-badge>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Time Table of FY & SY MCA 2022-23 Even Semester.
+                <ion-badge slot="start" color="success"><a
+                    href="https://mca.spit.ac.in/index.php/timetable/">Download</a></ion-badge>
+                <ion-badge slot="start" color="danger">New</ion-badge>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                FY-MCA ESE Exam Time Table May 2023
+                <ion-badge slot="start" color="warning"><a
+                    href="https://mca.spit.ac.in/Docs/Final-TimeTableof-ESE-May-2019-FY"></a>
+                </ion-badge>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </ion-content>

@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Feedback Form
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">Username</ion-label>
+        <ion-input formControlName="username"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Email</ion-label>
+        <ion-input formControlName="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">UCID</ion-label>
+        <ion-input
+          formControlName="ucid"
+          type="number"
+          (input)="onUcidInput($event)"
+        ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Feedback</ion-label>
+        <ion-textarea formControlName="feedback"></ion-textarea>
+      </ion-item>
+    </ion-list>
+
+    <div class="ion-padding">
+      <ion-button expand="block" type="submit" [disabled]="feedbackForm.invalid">
+        Submit
+      </ion-button>
+    </div>
+  </form>
+</ion-content>
