@@ -2,12 +2,13 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { RatingsComponent } from "../ratings/ratings.component";
 @Component({
-  selector: 'app-tab4',
-  templateUrl: './tab4.page.html',
-  styleUrls: ['./tab4.page.scss'],
-  standalone:true,
-  imports: [IonicModule,CommonModule,FormsModule,ReactiveFormsModule]
+    selector: 'app-tab4',
+    templateUrl: './tab4.page.html',
+    styleUrls: ['./tab4.page.scss'],
+    standalone: true,
+    imports: [IonicModule, CommonModule, FormsModule, ReactiveFormsModule, RatingsComponent]
 })
 export class Tab4Page implements OnInit {
   feedbackForm!: FormGroup;
