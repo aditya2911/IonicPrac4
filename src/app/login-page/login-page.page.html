@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  
+  </ion-header>
+
+  <div class="parent">
+    <img src="../../assets/images/lock.jpg" alt="" class="imageLock">
+    <div class="intro">
+      <p>Welcome to Spit</p>
+    </div>
+    <input type="text" class="inputT" placeholder="Email">
+    <input type="text" class="inputT" placeholder="Password">
+
+      <button (click)="goToPage()" class="submitBtn">Submit</button>
+
+  </div>
+</ion-content>

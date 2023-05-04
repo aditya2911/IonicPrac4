@@ -1,0 +1,47 @@
+.parent{
+    height: 100%;
+    width: 100vw;
+    padding-bottom: 3.5rem;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageLock{
+    align-self: center;
+    margin-top: 2rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.intro{
+
+    display: flex;
+    align-self: center;
+}
+
+.intro>p{
+    font-size: 2rem;
+}
+
+.inputT{
+    align-self: center;
+    width: 70%;
+    height: 3rem;
+    padding: 1rem;
+    outline: 0;
+    border: 0;
+    margin-top: 2rem;
+}
+
+.submitBtn{
+    text-align: center;
+    padding: 1rem;
+    width: 60%;
+    height: 4rem;
+    margin-top: 2rem;
+    align-self: center;
+    border-radius: 100000px;
+    background-color: #6e00f0;
+    font-size: 1.4rem;
+}
